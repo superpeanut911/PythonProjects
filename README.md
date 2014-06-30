@@ -13,11 +13,11 @@ Requirements for Skype bot:
   - Skype4Py ( pip install skype4py )
   
 Commands:
-  - !mcping <ip>:[port] - Returns servers online status with player count and ping time (ms)
+  - !mcping ip:[port] - Returns servers online status with player count and ping time (ms)
   - !uuid <playername> - Returns the UUID of the specified player
   - !info - Lists commands and credits, just info!
   - !exit - Shut the bot down. Exits the program completely
   
 ==============
 
-- Other Python Projects coming soon :) - 
+Other Python Projects coming soon :) - 
