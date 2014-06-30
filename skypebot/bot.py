@@ -18,7 +18,7 @@ def OnMessageStatus(Message, Status):
     #Make sure every message starts with ! before doing anything
     if Status == 'RECEIVED' or Status == 'SENT' and body.startswith("!"):
 
-        if body == "!info":
+        if body == "!info" or body == "!help":
             #Please don't take my name out of this <3
             Message.Chat.SendMessage("mc.ecb-mc.net Skype Bot by superpeanut911! Use '!exit' to stop the bot, "
                                      "'!uuid <player>' to get the player's UUID, "
