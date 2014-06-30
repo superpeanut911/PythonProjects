@@ -15,7 +15,7 @@ Requirements for Skype bot:
 Commands:
   - !mcping ip:[port] - Returns servers online status with player count and ping time (ms)
   - !uuid <playername> - Returns the UUID of the specified player
-  - !info - Lists commands and credits, just info!
+  - !info or !help - Lists commands and credits, just info!
   - !exit - Shut the bot down. Exits the program completely
   
 ==============
